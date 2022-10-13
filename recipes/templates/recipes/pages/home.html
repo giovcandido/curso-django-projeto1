@@ -3,9 +3,9 @@
 {% block title %}Home |{% endblock title %}
 
 {% block content %}
-<div class="content-grid content-grid-list container">
-    {% for recipe in recipes %}
-        {% include 'recipes/partials/recipe.html' %}
-    {% endfor %}
-</div>
+    <div class="content-grid content-grid-list container">
+        {% for recipe in recipes %}
+            {% include 'recipes/partials/recipe.html' %}
+        {% endfor %}
+    </div>
 {% endblock content %}
